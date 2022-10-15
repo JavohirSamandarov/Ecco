@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <nav class="nav">
+            <div class="nav-logo">
+                <a href="#">Ecco</a>
+            </div>
+            <div class="nav-menu">
+                <ul class="nav-item">
+                    <li class="nav-item__list">
+                        <a href="#" class="nav-item__link">Home</a>
+                    </li>
+                    <li class="nav-item__list">
+                        <a href="#" class="nav-item__link">About</a>
+                    </li>
+                    <li class="nav-item__list">
+                        <a href="#" class="nav-item__link">Product</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-contact">
+                <div class="nav-contact__call">
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#597e8d" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
+                        </svg>
+                        <span>+132 456 789</span>
+                    </a>
+                </div>
+                <button class="nav-contact__items" onclick="">
+                    <!-- <a href="#"> -->
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-shopping-cart" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#597e8d" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <circle cx="6" cy="19" r="2" />
+                            <circle cx="17" cy="19" r="2" />
+                            <path d="M17 17h-11v-14h-2" />
+                            <path d="M6 5l14 1l-1 7h-13" />
+                        </svg>
+                        <!-- <h1><span class="item-number" id="item-number">0 </span>&nbsp;items- $ <span class="item-price" id="item-price">0</span></h1> -->
+                    <!-- </a> -->
+                </button>
+            </div>
+            <div class="burger-menu">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+        <header class="header">
+            <div class="container">
+                <div class="header-content">
+                    <h1>Welcom to <span>Ecco</span></h1>
+                    <button class="ecco-button">Explore</button>
+                </div>
+            </div>
+        </header>
+        <section class="sections">
+            <div class="about-section">
+                <div class="container">
+                    <div class="about-page">
+                        <div class="about-page__left">
+                            <div class="about-page__content">
+                                <h1>About <span>Us</span></h1>
+                                <p>
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam, atque ea nostrum ratione quia, odio facere quas beatae quidem est delectus eaque ab minus odit optio quasi fugiat necessitatibus iste obcaecati dolorum repudiandae vel voluptatibus culpa! Quia quasi dignissimos nisi temporibus, aliquam alias deserunt! Veniam ullam incidunt sequi esse facilis.
+                                </p>
+                                <button class="about-button">Explore</button>
+                            </div>
+                        </div>
+                        <div class="about-page__right">
+                            <div class="about-page__rightImg">
+                                <img src="./images/about us.jpg" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product-section">
+                <div class="container">
+                    <div class="product-page">
+                        <div class="product-page__title">
+                            <h1>Our <span>Store</span></h1>
+                            <div class="search-form">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#597e8d" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <circle cx="10" cy="10" r="7" />
+                                    <line x1="21" y1="21" x2="15" y2="15" />
+                                </svg>
+                                <input type="text" id="product-search" placeholder="search..." maxlength="20">
+                            </div>
+                        </div>
+                        <div class="product-cards">
+                            <!-- <div class="product-card">
+                                <div class="product-card__top">
+                                    <img class="btns" src="/images/image1.png" alt="" />
+                                </div>
+                                <div class="product-card__bottom">
+                                    <h1 class="product-title">Ultraboost 21 sneakers</h1>
+                                    <div class="bottom-card">
+                                        <div class="price">
+                                            <h1 class="price-item">$94.75</h1>
+                                        </div>
+                                        <button class="add-card" onclick="addCart(1)">Add-card</button>
+                                    </div>
+                                </div>
+                            </div> -->
+                            <!-- <div class="product-card">
+                                <div class="product-card__top">
+                                    <img class="btns"  src="/images/image2.png" alt="" />
+                                </div>
+                                <div class="product-card__bottom">
+                                    <h1 class="product-title">ZX 8000 Lego sneakers</h1>
+                                    <div class="bottom-card">
+                                        <div class="price">
+                                            <h1 class="price-item">$28.56</h1>
+                                        </div>
+                                        <button class="add-card" onclick="addCart(2)">Add-card</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-card__top">
+                                    <img class="btns" src="/images/image3.png" alt="" />
+                                </div>
+                                <div class="product-card__bottom">
+                                    <h1 class="product-title">Nike Blazer Low 77 Vintage</h1>
+                                    <div class="bottom-card">
+                                        <div class="price">
+                                            <h1 class="price-item">$28.56</h1>
+                                        </div>
+                                        <button class="add-card" onclick="addCart(3)">Add-card</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-card__top">
+                                    <img class="btns" src="/images/image4.png" alt="" />
+                                </div>
+                                <div class="product-card__bottom">
+                                    <h1 class="product-title">ASMC Winter Boot Cold.Rdy</h1>
+                                    <div class="bottom-card">
+                                        <div class="price">
+                                            <h1 class="price-item">$35.40</h1>
+                                        </div>
+                                        <button class="add-card" onclick="addCart(4)">Add-card</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-card__top">
+                                    <img class="btns" src="/images/image5.png" alt="" />
+                                </div>
+                                <div class="product-card__bottom">
+                                    <h1 class="product-title">2750 Cotu Classic Sneaker</h1>
+                                    <div class="bottom-card">
+                                        <div class="price">
+                                            <h1 class="price-item" onclick="addCart(5)">$28.56</h1>
+                                        </div>
+                                        <button class="add-card">Add-card</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-card__top">
+                                    <img class="btns" src="/images/image6.png" alt="" />
+                                </div>
+                                <div class="product-card__bottom">
+                                    <h1 class="product-title">Gazelle Vintage low-top sneaker</h1>
+                                    <div class="bottom-card">
+                                        <div class="price">
+                                            <h1 class="price-item">$28.56</h1>
+                                        </div>
+                                        <button class="add-card" onclick="addCart(6)">Add-card</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-card__top">
+                                    <img class="btns" src="/images/image7.png" alt="" />
+                                </div>
+                                <div class="product-card__bottom">
+                                    <h1 class="product-title">Madrid Big Buckle Sandal</h1>
+                                    <div class="bottom-card">
+                                        <div class="price">
+                                            <h1 class="price-item">$64</h1>
+                                        </div>
+                                        <button class="add-card" onclick="addCart(7)">Add-card</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-card__top">
+                                    <img class="btns" src="/images/image8.png" alt="" />
+                                </div>
+                                <div class="product-card__bottom">
+                                    <h1 class="product-title">Nike Air Force 1 NDESTRUKT</h1>
+                                    <div class="bottom-card">
+                                        <div class="price">
+                                            <h1 class="price-item">$32.2</h1>
+                                        </div>
+                                        <button class="add-card" onclick="addCart(8)">Add-card</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-card__top">
+                                    <img class="btns" src="/images/image9.png" alt="" />
+                                </div>
+                                <div class="product-card__bottom">
+                                    <h1 class="product-title">Chuck 70 Hi Sneaker</h1>
+                                    <div class="bottom-card">
+                                        <div class="price">
+                                            <h1 class="price-item">$37</h1>
+                                        </div>
+                                        <button class="add-card" onclick="addCart(9)">Add-card</button>
+                                    </div>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <basket class="basket">
+            <div class="basket-close">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-x" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#597e8d" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <line x1="18" y1="6" x2="6" y2="18" />
+                    <line x1="6" y1="6" x2="18" y2="18" />
+                </svg>
+            </div>
+            <!-- <div class="basket-item">
+                <div class="basket-name">
+                    <div class="basket-item__image">
+                        <img src="./images/image3.png" alt="">
+                    </div>
+                    <div class="basket-item__title">
+                        <h1 class="product-name">Ultraboost 21 sneakers</h1>
+                        <h1 class="basket-price">$94.75</h1>
+                        <button class="del-product">-</button>
+                        <span class="product-num">1</span>
+                        <button class="add-product">+</button>
+                    </div>
+                </div>
+                <button class="remove-product">remove</button>
+            </div> -->
+        </basket>
+
+    </div>
+
+    <script src="./js/app.js"></script>
+</body>
+</html>
